@@ -2,3 +2,5 @@ test.dSYM/
 test.o.dSYM/
 test
 test.o
+.DS_Store
+.vscode
