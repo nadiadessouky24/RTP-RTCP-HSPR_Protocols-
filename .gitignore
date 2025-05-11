@@ -1,4 +1,4 @@
-test.dSYM
-test.o.dSYM
+test.dSYM/
+test.o.dSYM/
 test
 test.o
