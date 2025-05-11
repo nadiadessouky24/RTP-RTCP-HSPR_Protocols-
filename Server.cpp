@@ -26,7 +26,15 @@ void Server()
 
     while (true)
     {
+        char buffer[buffer_size];
+        sockaddr_in client_addr;
+        socklen_t addr_len = sizeof(client_addr); //needed for recvform 
+
+        //need to receive the file 
+        int bytes = recvfrom(rtp_socket, buffer, sizeof(buffer), 0,(sockaddr*)&client_addr, &addr_len);
+        buffer[bytes] = '\0'; // Null-terminate the message
         
+
     }
     
 

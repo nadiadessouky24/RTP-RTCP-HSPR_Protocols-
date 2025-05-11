@@ -11,4 +11,4 @@ using namespace std;
 
 #define RTP_Port 5000
 #define RTCP_Port 5001
-#define buffer 1024
+#define buffer_size 1024
